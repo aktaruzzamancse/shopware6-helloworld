@@ -1,1 +1,1 @@
-# shopware6-helloworld
+Shopware 6 Hello Plugin

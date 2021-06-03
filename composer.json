@@ -1,0 +1,31 @@
+{
+    "name": "codeplaza/hello-world",
+    "description": "Description for the plugin CodeplazaHelloWorld",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shopware"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Codeplaza\\HelloWorld\\CodeplazaHelloWorld",
+        "label": {
+            "de-DE": "Der angezeigte lesbare Name für das Plugin",
+            "en-GB": "Hello World Plugin"
+        },
+        "description": {
+            "de-DE": "Beschreibung in der Administration für das Plugin",
+            "en-GB": "Description in the administration for this plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeplaza\\HelloWorld\\": "src/"
+        }
+    }
+}
